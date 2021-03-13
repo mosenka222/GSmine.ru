@@ -153,6 +153,9 @@ textarea::-webkit-input-placeholder{
 .t1{
 	padding-top: 100px;
 }
+.t2{
+	font-size: 40px;
+}
 @media all and (max-width: 380px){
 	.shapka{
 		background-position: center;
