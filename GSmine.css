@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.shapka{
+	height: 100vh;
+	background-image: url(https://i.playground.ru/p/3EZG056e5RwXppCWiqdIbw.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.temn1{
+	height: 100vh;
+	background-color: #00000099;
+	color: white;
+	text-align: center;
+}
+.ip{
+	float: left;
+	padding: 20px;
+}
+.txt1{
+	padding-top: 100px;
+	font-size: 100px;
+}
+.txt2{
+	padding-top: 50px;
+	font-size: 50px;
+}
+.opis{
+	height: 100vh;
+	background-image: url(https://kartinkinaden.ru/uploads/posts/2020-07/1593659353_31-p-foni-iz-mainkraft-39.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.img1{
+	width: 275px;
+	height: 200px;
+}
+.ideas{
+	height: 100vh;
+	text-align: center;
+	background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/09/landscape-minecraft-2560-x-1440.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.inp{
+	width: 175px;
+	height: 50px;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: #00000000;
+	outline: none;
+	border: 1px solid white;
+	border-radius: 1%;
+	color: white;
+	transition: background-color 0.3s ease; 
+}
+input::-webkit-input-placeholder{
+    color: white;
+} 
+input::-moz-placeholder{
+    color: white;
+}
+textarea:-moz-placeholder{
+	color: white;
+}
+textarea::-webkit-input-placeholder{
+	color: white;
+}
+.gr{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+	width: 1000px;
+	height: 100vh;
+	margin: auto;
+}
+.temn2{
+	height: 100vh;
+	background-color: #00000099;
+	color: white;
+	text-align: center;
+}
+.fr{
+	font-size: 50px;
+}
+.i1{
+	width: 300px;
+	height: 150px;
+}
+.as{
+	height: 100vh;
+	background-image: url(https://avatars.mds.yandex.net/get-zen_doc/3430466/pub_5eee26715491896ed4f00a15_5eee28717da0501b7e589933/scale_1200);
+	background-size: cover;
+	background-position: center;
+}
+.bs{
+	width: 854px;
+	height: 200px;
+	margin: auto;
+	padding-top: 200px;
+}
+.ss{
+	width: 400px;
+	height: 200px;
+	border: 1px solid gray;
+	margin: auto;
+	text-align: center;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	float: left;
+	transition: background-color 0.5s ease;
+}
+.ss:hover{
+	background-color: #f3f3f399;
+}
+.sss{
+	margin-right: 50px;
+}
+.s1{
+	text-decoration: none;
+	font-size: 75px;
+}
+.inp:hover{
+	background-color: #f3f3f350;
+}
+.top1{
+	margin-top: 100px;
+}
+.inp:active{
+	background-color: #f3f3f3;
+}
+@media all and (max-width: 380px){
+	.shapka{
+		background-position: center;
+	}
+	.opis{
+		height: 1500px;
+	}
+	.gr{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		width: 10px;
+		float: left;
+		margin-left: 40px;
+	}
+	.fr{
+		float: left;
+		clear: both;
+	}
+	.ss{
+		width: 100px;
+		height: 50px;
+	}
+	.s1{
+		font-size: 20px;
+	}
+	.bs{
+		margin-left: 50px;
+	}
+	.temn2{
+		height: 1500px;
+	}
+}
