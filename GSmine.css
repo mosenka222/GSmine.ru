@@ -113,9 +113,18 @@ textarea::-webkit-input-placeholder{
 	cursor: pointer;
 	float: left;
 	transition: background-color 0.5s ease;
+	border-radius: 100px;
+	box-shadow: 10px 10px 10px black;
 }
 .ss:hover{
-	background-color: #f3f3f399;
+	background-color: #00000099;
+
+}
+.ss:active{
+	background-color: #000000cd;
+}
+.txt3{
+	padding-top: 45px;
 }
 .sss{
 	margin-right: 50px;
@@ -130,8 +139,19 @@ textarea::-webkit-input-placeholder{
 .top1{
 	margin-top: 100px;
 }
-.inp:active{
+.sub:active{
 	background-color: #f3f3f3;
+}
+.sub{
+	border-radius: 100px;
+	box-shadow: 5px 5px 5px;
+	transition: box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.sub:hover{
+	box-shadow: 10px 10px 10px;
+}
+.t1{
+	padding-top: 100px;
 }
 @media all and (max-width: 380px){
 	.shapka{
@@ -154,6 +174,9 @@ textarea::-webkit-input-placeholder{
 	.ss{
 		width: 100px;
 		height: 50px;
+	}
+	.txt3{
+		padding-top: 10px;
 	}
 	.s1{
 		font-size: 20px;
